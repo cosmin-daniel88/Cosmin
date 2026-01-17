@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Binabox NFT Collection</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="header">
+    <a class="header__logo" href="#">
+      <img class="header__logo-image" src="#" alt="BINABOX">
+    </a>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__item"><a class="nav__link nav__link--active" href="#">Home</a></li>
+        <li class="nav__item"><a class="nav__link" href="#">Blog</a></li>
+        <li class="nav__item"><a class="nav__link" href="#">Catalog</a></li>
+        <li class="nav__item"><a class="nav__link" href="#">Contact Us</a></li>
+      </ul>
+    </nav>
+
+    <div class="header__actions">
+      <input class="header__search" type="text" placeholder="Search">
+      <button class="button button--discord">Discord</button>
+      <button class="button button--primary">Log In</button>
+    </div>
+  </header>
+  <main class="main">
+    <section class="banner">
+      <h1 class="banner__title">WITH <span class="banner__brand">BINABOX</span> EXPLORE NFT COLLECTION</h1>
+      <p class="banner__description">We are the best way to check the rarity of NFT collections</p>
+
+      <div class="stats">
+        <div class="stats__item">
+          <h2 class="stats__value stats__value--highlight">2240+</h2>
+          <p class="stats__label">Total Items</p>
+        </div>
+        <div class="stats__item">
+          <h2 class="stats__value stats__value--highlight">1000+</h2>
+          <p class="stats__label">Profiles Whitelisted</p>
+        </div>
+      </div>
+
+      <div class="banner__actions">
+        <button class="button button--primary banner__button">Connect Wallet</button>
+        <button class="button button--secondary banner__button">Whitelist Now</button>
+      </div>
+    </section>
+    <section class="catalog">
+      <header class="catalog__header">
+        <h2 class="catalog__title">Catalog</h2>
+        <a class="catalog__see-all" href="#">See all</a>
+        <button class="catalog__arrow catalog__arrow--left" aria-label="Previous item">&lt;</button>
+        <button class="catalog__arrow catalog__arrow--right" aria-label="Next item">&gt;</button>
+      </header>
+
+      <ul class="catalog__list">
+        <li class="catalog__item">
+          <h3 class="catalog__name">Echo of Bones</h3>
+          <img class="catalog__image" src="https://skeleton.com" alt="Echo of Bones NFT artwork">
+          <div class="catalog__meta">
+            <span class="catalog__price">$1990</span>
+            <span class="catalog__status catalog__status--new">New</span>
+          </div>
+        </li>
+        <li class="catalog__item">
+          <h3 class="catalog__name">Nyx the Watcher</h3>
+          <img class="catalog__image" src="https://cat.com" alt="Nyx the Watcher NFT artwork">
+          <div class="catalog__meta">
+            <span class="catalog__price">$299.99</span>
+            <span class="catalog__status catalog__status--new">New</span>
+          </div>
+        </li>
+        <li class="catalog__item">
+          <h3 class="catalog__name">Blade of Silence</h3>
+          <img class="catalog__image" src="https://scissor.com" alt="Blade of Silence NFT artwork">
+          <div class="catalog__meta">
+            <span class="catalog__price">$20</span>
+            <span class="catalog__status catalog__status--sold">Sold Out</span>
+          </div>
+        </li>
+        <li class="catalog__item">
+          <h3 class="catalog__name">Data Core: Alpha</h3>
+          <img class="catalog__image" src="https://green-card.com" alt="Data Core Alpha NFT artwork">
+          <div class="catalog__meta">
+            <span class="catalog__price">$1.000.000</span>
+          </div>
+        </li>
+        <li class="catalog__item">
+          <h3 class="catalog__name">Phantom Console</h3>
+          <img class="catalog__image" src="https://console.com" alt="Phantom Console NFT artwork">
+          <div class="catalog__meta">
+            <span class="catalog__price">$199.5</span>
+          </div>
+        </li>
+      </ul>
+    </section>
+    <section class="blog">
+      <h2 class="blog__title">Our Blog</h2>
+      <ul class="blog__list">
+        <li class="blog__item">
+          <article class="blog-card blog-card--large">
+            <a class="blog-card__link" href="#">
+              <img class="blog-card__image" src="neural-drift.jpg" alt="Neural Drift">
+            </a>
+            <div class="blog-card__content">
+              <p class="blog-card__meta">Novan Riven | 04 Dec 2022</p>
+              <h3 class="blog-card__title">Neural Drift</h3>
+              <p class="blog-card__excerpt">I woke up inside the void. My body stayed in the past - only thoughts were
+                allowed through...</p>
+              <a class="blog-card__button" href="#">Read more ></a>
+            </div>
+          </article>
+        </li>
+        <li class="blog__item">
+          <article class="blog-card">
+            <a class="blog-card__link" href="#">
+              <img class="blog-card__image" src="deadframe.jpg" alt="Deadframe">
+            </a>
+            <div class="blog-card__content">
+              <p class="blog-card__meta">Kairo Null | 06 Dec 2022</p>
+              <h3 class="blog-card__title">Deadframe</h3>
+              <p class="blog-card__excerpt">He just stood there, waiting. Not for a person - for a signal. Like the
+                memory of the network...</p>
+              <a class="blog-card__button" href="#">Read more ></a>
+            </div>
+          </article>
+        </li>
+        <li class="blog__item">
+          <article class="blog-card">
+            <a class="blog-card__link" href="#">
+              <img class="blog-card__image" src="glitch-panther.jpg" alt="Glitch Panther">
+            </a>
+            <div class="blog-card__content">
+              <p class="blog-card__meta">Synthya Void | 07 Dec 2022</p>
+              <h3 class="blog-card__title">Glitch Panther</h3>
+              <p class="blog-card__excerpt">Cats always knew more than they showed. Especially the ones that vanish into
+                code.</p>
+              <a class="blog-card__button" href="#">Read more ></a>
+            </div>
+          </article>
+        </li>
+        <li class="blog__item">
+          <article class="blog-card">
+            <a class="blog-card__link" href="#">
+              <img class="blog-card__image" src="primal-exe.jpg" alt="Primal.exe">
+            </a>
+            <div class="blog-card__content">
+              <p class="blog-card__meta">Dr. Wex Omega | 08 Dec 2022</p>
+              <h3 class="blog-card__title">Primal.exe</h3>
+              <p class="blog-card__excerpt">We tried to resurrect the past. What we got was rage compressed into an
+                algorithm.</p>
+              <a class="blog-card__button" href="#">Read more ></a>
+            </div>
+          </article>
+        </li>
+        <li class="blog__item">
+          <article class="blog-card">
+            <a class="blog-card__link" href="#">
+              <img class="blog-card__image" src="white-protocol.jpg" alt="White Protocol">
+            </a>
+            <div class="blog-card__content">
+              <p class="blog-card__meta">Tony Nguyen | 20 Jun 2022</p>
+              <h3 class="blog-card__title">White Protocol</h3>
+              <p class="blog-card__excerpt">At first, it was just a signal - clean, white, hypnotic. We didn't know it
+                was alive.</p>
+              <a class="blog-card__button" href="#">Read more ></a>
+            </div>
+          </article>
+        </li>
+        <li class="blog__item">
+          <article class="blog-card">
+            <a class="blog-card__link" href="#">
+              <img class="blog-card__image" src="retrocore.jpg" alt="Retrocore">
+            </a>
+            <div class="blog-card__content">
+              <p class="blog-card__meta">Echo Zero | 09 Dec 2022</p>
+              <h3 class="blog-card__title">Retrocore</h3>
+              <p class="blog-card__excerpt">This console comes from a game no one remembers how to play. But it's still
+                powered on.</p>
+              <a class="blog-card__button" href="#">Read more ></a>
+            </div>
+          </article>
+        </li>
+      </ul>
+      <a class="blog__read-more" href="#">Read more</a>
+    </section>
+    <section class="about">
+      <h2 class="about__title">About us</h2>
+      <p class="about__intro">We craft digital artefacts for those who live between worlds</p>
+      <p class="about__intro">Our space is built for creators, collectors, and the quietly obsessed.</p>
+
+      <ol class="features">
+        <li class="features__item">
+          <h3 class="features__title">01 Crystal Clear Quality</h3>
+          <p class="features__text">Every NFT we drop is razor-sharp, high-res, and glitch free. Art that hits hard and
+            stays clean.</p>
+        </li>
+        <li class="features__item">
+          <h3 class="features__title">02 Curated Depth</h3>
+          <p class="features__text">Not just big - meaningful. Each piece tells a story, every collection builds a
+            universe.</p>
+        </li>
+        <li class="features__item">
+          <h3 class="features__title">03 Rare Source Access</h3>
+          <p class="features__text">Early drops. Backstage peeks. Our members don't scroll - they unlock.</p>
+        </li>
+        <li class="features__item">
+          <h3 class="features__title">04 Living Network</h3>
+          <p class="features__text">Our community isn't a list - it's a force. Artists, rebels, dreamers.</p>
+        </li>
+      </ol>
+      <button class="button about__button">Read more</button>
+    </section>
+    <section class="team">
+      <h2 class="team__title">Our Team</h2>
+      <div class="team__grid">
+        <figure class="team__member">
+          <img class="team__image" src="novariven.jpg" alt="Portrait of Nova Riven">
+          <figcaption class="team__caption">
+            <h3 class="team__name">Nova Riven</h3>
+            <p class="team__role">Creative Architect</p>
+          </figcaption>
+        </figure>
+        <figure class="team__member">
+          <img class="team__image" src="echozero.jpg" alt="Portrait of Echo Zero">
+          <figcaption class="team__caption">
+            <h3 class="team__name">Echo Zero</h3>
+            <p class="team__role">Tech Whisperer</p>
+          </figcaption>
+        </figure>
+        <figure class="team__member">
+          <img class="team__image" src="kaironull.jpg" alt="Portrait of Kairo Null">
+          <figcaption class="team__caption">
+            <h3 class="team__name">Kairo Null</h3>
+            <p class="team__role">Lore Engineer</p>
+          </figcaption>
+        </figure>
+        <figure class="team__member">
+          <img class="team__image" src="drwexomega.jpg" alt="Portrait of Dr. Wex Omega">
+          <figcaption class="team__caption">
+            <h3 class="team__name">Dr. Wex Omega</h3>
+            <p class="team__role">Visual Disruptor</p>
+          </figcaption>
+        </figure>
+        <figure class="team__member">
+          <img class="team__image" src="synthyavoid.jpg" alt="Portrait of Synthya Void">
+          <figcaption class="team__caption">
+            <h3 class="team__name">Synthya Void</h3>
+            <p class="team__role">UX Seer</p>
+          </figcaption>
+        </figure>
+        <figure class="team__member">
+          <img class="team__image" src="mirlodrift.jpg" alt="Portrait of Mirlo Drift">
+          <figcaption class="team__caption">
+            <h3 class="team__name">Mirlo Drift</h3>
+            <p class="team__role">Community Catalyst</p>
+          </figcaption>
+        </figure>
+        <figure class="team__member">
+          <img class="team__image" src="axonrune.jpg" alt="Portrait of Axon Rune">
+          <figcaption class="team__caption">
+            <h3 class="team__name">Axon Rune</h3>
+            <p class="team__role">Security Ghost</p>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+    <section class="faq">
+      <h2 class="faq__title">FAQs</h2>
+      <div class="faq__list">
+        <details class="faq__item">
+          <summary class="faq__question">What are NFTs?</summary>
+          <p class="faq__answer"><a href="#">NFTs (non-fungible tokens)</a> are unique digital objects stored on the
+            blockchain. They can be art, music, code, memes, memories - anything that can be owned and verified. No
+            copies. No fakes. Just you and the chain.</p>
+        </details>
+        <details class="faq__item">
+          <summary class="faq__question">How do I get NFTs?</summary>
+          <p class="faq__answer">You can participate in drops, buy from the catalog, or whitelist your wallet.</p>
+        </details>
+        <details class="faq__item">
+          <summary class="faq__question">How can we buy NFTs?</summary>
+          <p class="faq__answer">NFTs can be purchased by connecting your crypto wallet and completing transactions on
+            the blockchain.</p>
+        </details>
+        <details class="faq__item">
+          <summary class="faq__question">Who are the team behind the project?</summary>
+          <p class="faq__answer">Our team consists of creators, engineers, and visionaries listed in the "Our Team"
+            section above.</p>
+        </details>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="footer__left">
+      <h2 class="footer__logo">BINABOX</h2>
+      <p class="footer__description">We are the best way to check the rarity of NFT collections.</p>
+      <p class="footer__copy">&copy; BINABOX 2025 - ALL rights reserved</p>
+    </div>
+
+    <div class="footer__right">
+      <h3 class="footer__title">Navigation</h3>
+      <ul class="footer__list">
+        <li class="footer__item"><a class="footer__link" href="#">Home</a></li>
+        <li class="footer__item"><a class="footer__link" href="#">Blog</a></li>
+        <li class="footer__item"><a class="footer__link" href="#">Catalog</a></li>
+        <li class="footer__item"><a class="footer__link" href="#">Contact Us</a></li>
+        <li class="footer__item"><a class="footer__link" href="#">Terms & Conditions</a></li>
+        <li class="footer__item"><a class="footer__link" href="#">Privacy Policy</a></li>
+        <li class="footer__item"><a class="footer__link" href="#">Whitepaper</a></li>
+        <li class="footer__item"><a class="footer__link" href="#">Help Center</a></li>
+      </ul>
+    </div>
+  </footer>
+
+</body>
+
+</html>
